@@ -1,0 +1,42 @@
+.banner{
+    background-color:white;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    height:100vh;
+    width: 100vw;
+    border:none;
+    position: relative;
+}
+.contain{
+    padding-left:150px;
+    padding-right:150px;
+    height: 100%;
+    
+
+}
+
+.banner-img{
+    display: table!important;
+    height:100%;
+}
+.banner-img-center{
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-text{
+    margin-left: 30px!important;
+    display: table!important;
+    height:100%;
+}
+.banner-text-center{
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-text-center h1{
+    font-size: 50px;
+}
+.banner-text-center p{
+    font-size: 25px;
+}
